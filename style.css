@@ -8,3 +8,63 @@
 	src: url(fonts/MuseoSlab-500.ttf);
 }
 
+html, body, header, .bg{
+	width: 100%;
+	height: 100%;
+}
+
+.bg{
+	background-color: #42a8f6;
+	position: relative;
+	overflow: hidden;
+}
+
+header .bg img.headphones{
+	position: absolute;
+	top: 0;
+	left: 0;
+	filter: drop-shadow(0 40px 15px #003f8d); /*новый стиль*/
+}
+
+header .bg img.yellow_pencil{
+	position: absolute;
+	bottom: 10%;
+	left: 0;
+	filter: drop-shadow(0 5px 5px #000);
+}
+
+header .bg img.black_pencil{
+	position: absolute;
+	bottom: 3%;
+	left: 0;
+	filter: drop-shadow(0 5px 5px #000);
+}
+
+header .bg .iPhone{
+	position: absolute;
+	top: 30%;
+	right: 50%;
+}
+
+header .bg .iPhone .body{
+	position: relative;
+}
+
+header .bg .iPhone .body img.sketch_iPhone{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+header .bg .iPhone .body img.bg_iPhone{
+	position: absolute;
+	top: 110px;
+	left: 32px;
+}
+
+header .bg img.airpod{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	filter: drop-shadow(0 15px 8px #003f8d);
+}
