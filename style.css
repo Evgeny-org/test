@@ -8,3 +8,215 @@
 	src: url(fonts/MuseoSlab-500.ttf);
 }
 
+.container{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+html, body, header, .bg{
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	position: relative;
+}
+
+.bg{
+	background-color: #42a8f6;
+	position: absolute;
+	overflow: hidden;
+	z-index: -1;
+}
+
+header .bg img.headphones{
+	position: absolute;
+	top: 0;
+	left: 0;
+	filter: drop-shadow(0 40px 15px #003f8d); /*новый стиль*/
+}
+
+header .bg img.yellow_pencil{
+	position: absolute;
+	bottom: 10%;
+	left: 0;
+	filter: drop-shadow(0 5px 5px #000);
+}
+
+header .bg img.black_pencil{
+	position: absolute;
+	bottom: 3%;
+	left: 0;
+	filter: drop-shadow(0 5px 5px #000);
+}
+
+header .bg .iPhone{
+	position: absolute;
+	top: 30%;
+	right: 40%;
+}
+
+header .bg .iPhone .body{
+	position: relative;
+}
+
+header .bg .iPhone .body img.sketch_iPhone{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+header .bg .iPhone .body img.bg_iPhone{
+	position: absolute;
+	top: 110px;
+	left: 31px;
+}
+
+header .bg img.airpods{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	filter: drop-shadow(0 15px 8px #003f8d);
+}
+
+header .bg .circle_low{
+	position: absolute;
+	bottom: 0;
+	right: 11%;
+	width: 700px;
+	height: 700px;
+	border-radius: 100%;
+	background-color: rgba(255, 255, 255, .15);
+	z-index: -2;
+}
+
+header .bg .circle_normal{
+	position: absolute;
+	right: 5%;
+	bottom: -15%;
+	width: 1000px;
+	height: 1000px;
+	border-radius: 100%;
+	background-color: rgba(255, 255, 255, .1);
+	z-index: -2;
+}
+
+header .bg .circle_hight{
+	position: absolute;
+	right: -2%;
+	bottom: -30%;
+	width: 1350px;
+	height: 1350px;
+	border-radius: 100%;
+	background-color: rgba(255, 255, 255, .1);
+	z-index: -2;
+}
+
+header .bg .circle_more-hight{
+	position: absolute;
+	right: -15%;
+	bottom: -60%;
+	width: 1900px;
+	height: 1900px;
+	border-radius: 100%;
+	background-color: rgba(255, 255, 255, .1);
+	z-index: -2;
+}
+
+header nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 300px;
+}
+
+header nav{
+	padding: 40px 0;
+	border-bottom: 1px solid white;
+}
+
+header nav .left img{
+	width: 120%;
+}
+
+header nav .right{
+	display: flex;
+}
+
+header nav .right a{
+	display: block;
+	text-decoration: none;
+	font-family: Raleway;
+	font-weight: 400;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 25px;
+	border-radius: 8px;
+	transition: .3s ease;
+}
+
+header nav .right a:hover{
+	background-color: rgba(0, 0, 0, .15);
+}
+
+header .info .header_info-title{
+	font-family: Slab;
+	color: #fff;
+	font-size: 48px;
+	margin-bottom: 25px;
+}
+
+header .info .header_info-text{
+	font-family: Raleway;
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 50px;
+	width: 50%;
+	line-height: 1.5;
+}
+
+header .info .header_info-bottons{
+	display: flex;
+	align-items: center;
+}
+
+header .info .header_info-bottons a.left{
+	display: flex;
+	font-weight: 500;
+	align-items: center;
+	margin-right: 25px;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, .15);
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	font-family: Raleway;
+	border-radius: 10px;
+	transition: .3s ease;
+}
+
+header .info .header_info-bottons a.left:hover{
+	background-color: rgba(255, 255, 255, 1);
+	color: #000;
+}
+
+header .info .header_info-bottons a.right{
+	font-weight: 500;
+	padding: 25px 50px;
+	background-color: rgba(0, 0, 0, .15);
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	font-family: Raleway;
+	border-radius: 10px;
+	transition: .3s ease;
+}
+
+header .info .header_info-bottons a.right:hover{
+	background-color: rgba(255, 255, 255, 1);
+	color: #000;
+}
+
+header .info .header_info-bottons a.left img{
+	margin-right: 15px;
+}
