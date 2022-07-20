@@ -127,6 +127,7 @@ header nav{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 300px;
 }
 
 header nav{
@@ -156,4 +157,66 @@ header nav .right a{
 
 header nav .right a:hover{
 	background-color: rgba(0, 0, 0, .15);
+}
+
+header .info .header_info-title{
+	font-family: Slab;
+	color: #fff;
+	font-size: 48px;
+	margin-bottom: 25px;
+}
+
+header .info .header_info-text{
+	font-family: Raleway;
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 50px;
+	width: 50%;
+	line-height: 1.5;
+}
+
+header .info .header_info-bottons{
+	display: flex;
+	align-items: center;
+}
+
+header .info .header_info-bottons a.left{
+	display: flex;
+	font-weight: 500;
+	align-items: center;
+	margin-right: 25px;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, .15);
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	font-family: Raleway;
+	border-radius: 10px;
+	transition: .3s ease;
+}
+
+header .info .header_info-bottons a.left:hover{
+	background-color: rgba(255, 255, 255, 1);
+	color: #000;
+}
+
+header .info .header_info-bottons a.right{
+	font-weight: 500;
+	padding: 25px 50px;
+	background-color: rgba(0, 0, 0, .15);
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	font-family: Raleway;
+	border-radius: 10px;
+	transition: .3s ease;
+}
+
+header .info .header_info-bottons a.right:hover{
+	background-color: rgba(255, 255, 255, 1);
+	color: #000;
+}
+
+header .info .header_info-bottons a.left img{
+	margin-right: 15px;
 }
