@@ -20,6 +20,7 @@ html, body, header, .bg{
 
 header{
 	position: relative;
+	margin-bottom: 100px;
 }
 
 .bg{
@@ -86,7 +87,7 @@ header .bg .circle_low{
 	width: 700px;
 	height: 700px;
 	border-radius: 100%;
-	background-color: rgba(255, 255, 255, .15);
+	background-color: rgba(255, 255, 255, .1);
 	z-index: -2;
 }
 
@@ -220,3 +221,180 @@ header .info .header_info-bottons a.right:hover{
 header .info .header_info-bottons a.left img{
 	margin-right: 15px;
 }
+
+main p.overhead{
+	font-family: Slab;
+	font-size: 24px;
+	color: grey;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+main h1.title{
+	text-transform: uppercase;
+	font-family: Roboto Slab;
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+main hr.subline{
+	margin: 0 auto;
+	width: 3%;
+	border: 2px solid #2eb0ec;
+	background-color: #2eb0ec;
+	margin-bottom: 130px;
+}
+
+main .our_services{
+	margin-bottom: 200px;
+}
+
+main .our_services .blocks{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main .our_services .blocks .block{
+	text-align: center;
+	margin: 0 auto;
+	width: 25%;
+}
+
+main .our_services .blocks .block .photo img{
+	width: 35%;
+	margin-bottom: 25px;
+}
+
+main .our_services .blocks .block .title{
+	font-family: Raleway;
+	font-weight: 600;
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+main .our_services .blocks .block .text{
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5;
+	color: grey;
+}
+
+main .unlimited{
+	padding: 200px 0;
+	background-image: url(imgs/unlim.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: flex;
+
+}
+
+main .unlimited .left img.iPhone{
+	width: 17%;
+	position: absolute;
+	top: 30%;
+	left: 25%;
+}
+
+main .unlimited .left img.iPad{
+	width: 50%;
+	position: absolute;
+	top: 15%;
+	left: -15%;
+}
+
+main .unlimited .left{
+	width: 50%;
+}
+
+main .unlimited .right{
+	width: 40%;
+}
+
+main .unlimited .right .overhead{
+	text-align: left;
+	font-family: Raleway;
+	font-size: 30px;
+	margin-bottom: 20px;
+	opacity: 75%;
+
+}
+
+main .unlimited .right .title{
+	text-align: left;
+	font-family: Raleway;
+	font-size: 42px;
+	text-transform: none;
+	margin-bottom: 30px;
+	font-weight: 600;
+}
+
+main .unlimited .right .subtitle{
+	text-align: left;
+	font-family: Raleway;
+	font-size: 24px;
+	margin-bottom: 65px;
+	color: grey;
+	font-weight: 500;
+}
+
+main .unlimited .right ul{
+	margin-bottom: 50px;
+}
+
+main .unlimited .right ul li{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	line-height: 2;
+	font-family: Raleway;
+	font-size: 24px;
+	color: grey;
+	font-weight: 500;
+}
+
+main .unlimited .right ul li .list{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: rgba(102, 212, 244, .4);
+	position: relative;
+	margin-right: 25px;
+}
+
+main .unlimited .right ul li .list .in_list{
+	width: 12px;
+	height: 12px;
+	border-radius: 100%;
+	background-color: rgba(102, 212, 244, 1.0);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+main .unlimited .right a.button{
+	background-color: #66d4f4;
+	font-size: 18px;
+	padding: 20px 30px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: #fff;
+	font-family: Raleway;
+	font-weight: 500;
+	letter-spacing: 2px;
+	transition: .5s ease;
+}
+
+main .unlimited .right a.button:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	transform: scale(1.5);
+	/*padding: 25px 35px;*/
+	font-size: 20px;
+	margin: -5px;
+}
+
+
