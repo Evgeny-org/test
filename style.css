@@ -611,6 +611,7 @@ main .pricing_plan{
 	padding: 100px 0 150px 0;
 	background-image: url(imgs/plan.png);
 	background-size: 1000px 1000px cover;
+	margin-bottom: 100px;
 }
 
 main .pricing_plan .blocks{
@@ -739,10 +740,51 @@ main .pricing_plan .block .button a{
 	transition: .3s ease;
 }
 
-/*main .pricing_plan .block .shop_bag{
-	width: 40%;
+main .subscribe_now form input,
+main .subscribe_now form button{
+	display: block;
+	margin: 0 auto;
 }
 
-main .pricing_plan .block .bag{
-	width: 50%;
+main .subscribe_now form input{
+	padding: 40px 120px;
+	text-align: center;
+	font-family: Raleway;
+	color: rgba(0, 0, 0, 1);
+	font-weight: 600;
+	font-size: 24px;
+	border: 0;
+	border-radius: 50px;
+	background-color: rgba(0, 0, 0, .03);
+	margin-bottom: 40px;
+}
+
+main .subscribe_now form input::placeholder{
+	font-family: Raleway;
+	font-weight: 700;
+	color: rgba(0, 0, 0, .25);
+}
+
+/*main .subscribe_now form input:focus::placeholder {
+	color: transparent
 }*/
+
+main .subscribe_now form input:focus{
+	outline: none;
+	box-shadow: 0 0 50px rgba(0, 0, 0, .10);
+	background-color: #fff;
+}
+
+main .subscribe_now form button{
+	padding: 40px 180px;
+	text-align: center;
+	font-family: Raleway;
+	color: white;
+	font-weight: 600;
+	font-size: 24px;
+	border: 0;
+	border-radius: 50px;
+	background-color: #66d4f4;
+	letter-spacing: 3px;
+	margin-bottom: 120px;
+}
