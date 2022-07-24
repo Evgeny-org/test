@@ -289,7 +289,7 @@ main .unlimited{
 	background-size: cover;
 	position: relative;
 	display: flex;
-
+	margin-bottom: 50px;
 }
 
 main .unlimited .left img.iPhone{
@@ -389,12 +389,48 @@ main .unlimited .right a.button{
 	transition: .5s ease;
 }
 
-main .unlimited .right a.button:hover{
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-	transform: scale(1.5);
-	/*padding: 25px 35px;*/
-	font-size: 20px;
-	margin: -5px;
+main .other_services .blocks{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
 }
+
+main .other_services .blocks:last-child{
+	margin-bottom: 150px;
+}
+
+main .other_services .blocks .block{
+	width: 30%;
+	display: flex;
+}
+
+main .other_services .blocks .block .photo img{
+	width: 100%;
+}
+
+main .other_services .blocks .block .photo{
+	width: 40%;
+	margin-right: 20px;
+}
+
+main .other_services .blocks .block .body{
+	padding-top: 10px;
+}
+
+main .other_services .blocks .block .body .title{
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+main .other_services .blocks .block .body .text{
+	font-family: Raleway;
+	font-weight: 500;
+	color: grey;
+	font-size: 24px;
+}
+
+
 
 
