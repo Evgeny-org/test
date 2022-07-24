@@ -437,6 +437,7 @@ main .customer_say{
 	background-image: url(imgs/other.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin-bottom: 200px;
 }
 
 main .customer_say .blocks{
@@ -558,5 +559,49 @@ main .customer_say .arrows p{
 	font-family: Raleway;
 	font-weight: 700;
 	font-size: 28px;
+}
 
+main .great_resourse{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main .great_resourse .body,
+main .great_resourse .photo{
+	width: 40%;
+}
+
+main .great_resourse .photo img{
+	width: 100%;
+}
+
+main .great_resourse .body .overhead{
+	font-family: Raleway;
+	font-weight: 500;
+	color: grey;
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+main .great_resourse .body .title{
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 28px;
+	margin-bottom: 25px;
+}
+
+main .great_resourse .body .subtitle{
+	font-family: Raleway;
+	font-weight: 500;
+	color: grey;
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+main .great_resourse .body .text{
+	font-family: Raleway;
+	font-weight: 500;
+	color: grey;
+	font-size: 18px;
 }
