@@ -565,6 +565,7 @@ main .great_resourse{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 150px;
 }
 
 main .great_resourse .body,
@@ -605,3 +606,143 @@ main .great_resourse .body .text{
 	color: grey;
 	font-size: 18px;
 }
+
+main .pricing_plan{
+	padding: 100px 0 150px 0;
+	background-image: url(imgs/plan.png);
+	background-size: 1000px 1000px cover;
+}
+
+main .pricing_plan .blocks{
+	display: flex;
+	justify-content: space-between;
+}
+
+main .pricing_plan .block{
+	width: 18%;
+	padding: 50px 75px 75px 75px;
+	background-color: #fff;
+	position: relative;
+	overflow: hidden;
+	border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	transition: .3s ease;
+}
+
+main .pricing_plan .block:hover{
+	transform: scale(1.05);
+}
+
+main .pricing_plan .plan_block{
+	position: absolute;
+	top: -20%;
+	right: -10%;
+	width: 100%;
+}
+
+main .pricing_plan .photo img{
+	display: block; /*картинка это inline элеменет))*/
+	margin: 0 auto;
+	width: 40%;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+main .pricing_plan .block .title{
+	text-align: center;
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+main .pricing_plan .block .price{
+	position: relative;
+	margin-bottom: 50px;
+}
+
+main .pricing_plan .block .price .left p,
+main .pricing_plan .block .price .center p,
+main .pricing_plan .block .price .right p{
+	background-image: linear-gradient(45deg, #65eef8, #33b6ed);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+main .pricing_plan .block .price .left p{
+	position: absolute;
+	top: 30%;
+	left: 23%;
+	transform: translate(-50%, 0);
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 28px;
+	color: blue;
+}
+
+main .pricing_plan .block .price .center p{
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 96px;
+	color: blue;
+	text-align: center;
+	position: relative;
+}
+
+main .pricing_plan .block .price .right p{
+	position: absolute;
+	bottom: 0;
+	right: -5%;
+	transform: translate(-50%, 0);
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 28px;
+}
+
+main .pricing_plan .block .subtitle{
+	font-family: Raleway;
+	font-size: 18px;
+	text-align: center;
+	font-weight: 500;
+	line-height: 2;
+	margin-bottom: 80px;
+}
+
+main .pricing_plan .block .subtitle span{
+	color: grey;
+}
+
+main .pricing_plan .block .button{
+	text-align: center;
+	transition: .3s ease;
+}
+
+main .pricing_plan .block .button:hover{
+	transform: scale(1.1);
+}
+
+main .pricing_plan .block .button a:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+}
+
+main .pricing_plan .block .button a{
+	background-color: #66d4f4;
+	padding: 20px 50px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 50px;
+	font-family: Raleway;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 2px;
+	transition: .3s ease;
+}
+
+/*main .pricing_plan .block .shop_bag{
+	width: 40%;
+}
+
+main .pricing_plan .block .bag{
+	width: 50%;
+}*/
