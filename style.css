@@ -776,6 +776,7 @@ main .subscribe_now form input:focus{
 }
 
 main .subscribe_now form button{
+	cursor: pointer;
 	padding: 40px 180px;
 	text-align: center;
 	font-family: Raleway;
@@ -787,4 +788,87 @@ main .subscribe_now form button{
 	background-color: #66d4f4;
 	letter-spacing: 3px;
 	margin-bottom: 120px;
+}
+
+footer hr{
+	margin-bottom: 50px;
+	border: 0;
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.10);
+}
+
+footer .blocks{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+	padding: 0 25px;
+}
+
+footer .blocks .block{
+	display: flex;
+	flex-direction: column;
+	width: 15%;
+}
+
+footer .blocks .block:first-child{
+	margin-right: 100px;
+}
+
+footer .blocks .block img{
+	width: 80%;
+	margin-bottom: 25px;
+}
+
+footer .blocks .block p{
+	font-family: Raleway;
+	color: grey;
+	line-height: 1.2;
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+
+footer .blocks .block .icons{
+	display: flex;
+}
+
+footer .blocks .block .icons img{
+	width: 30px;
+	margin-right: 10px;
+}
+
+footer .blocks .block h2{
+	font-family: Raleway;
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+
+footer .blocks .block a{
+	font-family: Raleway;
+	font-size: 20px;
+	color: grey;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+footer .blocks .block a:hover{
+	text-decoration: underline;
+}
+
+footer p.under_footer{
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 600;
+	color: grey;
+	margin-left: 25px;
+	margin-bottom: 40px;
+}
+
+footer p.under_footer span.vertical{
+	margin: 0 15px;
+}
+
+footer .just{
+	color: white;
 }
